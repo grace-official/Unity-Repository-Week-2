@@ -60,10 +60,10 @@ public class AdvancedPlayerController : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }
-    
+
     void ApplyGravity()
     {
-         Code for gravity
+        // Code for gravity
         if (controller.isGrounded && velocity.y < 0)
         {
             velocity.y = 0f;
@@ -72,7 +72,7 @@ public class AdvancedPlayerController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     }
-    
+
     void ProcessJumping()
     {
         if (allowJumping && Input.GetButtonDown("Jump") && controller.isGrounded)
