@@ -186,3 +186,4 @@ crashlytics-build.properties
 3rdPersonGame/Assets/Conifers \[BOTD\]/Conifers \[BOTD\] Documentation.pdf.meta
 3rdPersonGame/Assets/Conifers \[BOTD\]/Conifers \[BOTD\] Documentation.pdf
 3rdPersonGame/Assets/Conifers \[BOTD\].meta
+*.meta
